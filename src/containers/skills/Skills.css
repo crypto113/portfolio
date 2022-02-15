@@ -21,7 +21,7 @@
 }
 
 .skills-main-div > * {
-  flex: 4 5 auto;
+  flex: 1;
   margin-bottom: 30px;
 }
 

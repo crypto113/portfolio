@@ -1,7 +1,9 @@
 .experience-main {
   width: 100%;
 }
-
+.experience-basic {
+  max-width: 1370px;
+}
 .basic-experience {
   margin-left: 5%;
   margin-right: 5%;
@@ -9,10 +11,6 @@
 
 .experience-heading-div {
   display: flex;
-}
-
-.experience-heading-div > * {
-  flex: 1;
 }
 
 .experience-heading-img-div {
