@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 className="project-title">Open Source Projects</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
-          return <ProjectCard repo={v} key={v.node.id} />;
+          return <ProjectCard key={i} repo={v} key={v.node.id} />;
         })}
       </div>
       <a className="resume-btn" href="https://github.com/harikanani">

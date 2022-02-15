@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import "./ProjectCard.css";
-import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
@@ -25,8 +24,6 @@ export default function ProjectCard({ repo, theme }) {
   });
 
   return (
-    <div>
-      <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
           key={repo.id}
@@ -45,7 +42,5 @@ export default function ProjectCard({ repo, theme }) {
             <ProjectLanguages logos={repo.languages} />
           </div>
         </div>
-      </Fade>
-    </div>
   );
 }
