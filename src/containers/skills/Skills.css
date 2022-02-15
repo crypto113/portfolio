@@ -21,12 +21,12 @@
 }
 
 .skills-main-div > * {
-  flex: 1;
+  flex: 4 5 auto;
   margin-bottom: 30px;
 }
 
 .skills-image-div > * {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
   margin-top: 100px;
 }
@@ -34,7 +34,6 @@
 .skills-heading {
   font-size: 50px;
   font-weight: 400;
-  text-align: center;
   padding-bottom: 10px;
   font-family: "Google Sans Regular";
 }

@@ -19,12 +19,12 @@ const lightTheme = {
 
 const darkTheme = {
   name: "dark",
-  body: "#1D1D1D",
+  body: "#21252a",
   text: "#FFFFFF",
   dark: "#000000",
   secondaryText: "#8D8D8D",
   accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentBright: "#6c63ff",
   projectCard: "#292A2D",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",

@@ -2,7 +2,6 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
@@ -19,31 +18,25 @@ export default function Greeting(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">{greeting.title}</h1>
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
+              <p className="greeting-text-p subTitle" style={{ color: theme.secondaryText }}>
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
-                {greeting.subTitle}
+                {greeting.subTitle1}
+                <br />
+                {greeting.subTitle2}
+                <br />
+                {greeting.subTitle3}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
-                <button
-                  {...styles}
-                  className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
-                >
+                <button {...styles} className="button" onClick={() => {history.push("/contact");}}>
                   Contact Me
                 </button>
               </div>
@@ -54,6 +47,5 @@ export default function Greeting(props) {
           </div>
         </div>
       </div>
-    </Fade>
   );
 }
