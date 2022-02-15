@@ -1,6 +1,5 @@
 import React from "react";
 import "./DegreeCard.css";
-import { Fade, Flip } from "react-reveal";
 import { style } from "glamor";
 
 function DegreeCard(props) {
@@ -69,7 +68,6 @@ function DegreeCard(props) {
 
   return (
     <div className="degree-card">
-      <Flip left duration={2000}>
         <div {...style_img}>
           <img
             style={{
@@ -81,8 +79,6 @@ function DegreeCard(props) {
             alt={degree.alt_name}
           />
         </div>
-      </Flip>
-      <Fade right duration={2000} distance="40px">
         <div {...card_body}>
           <div
             className="body-header"
@@ -102,10 +98,10 @@ function DegreeCard(props) {
               </h3>
             </div>
           </div>
-          <div classname="body-content">
-            {degree.descriptions.map((sentence) => {
+          <div className="body-content">
+            {degree.descriptions.map((sentence, index) => {
               return (
-                <p className="content-list" style={{ color: theme.text }}>
+                <p key={index} className="content-list" style={{ color: theme.text }}>
                   {sentence}
                 </p>
               );
@@ -130,7 +126,6 @@ function DegreeCard(props) {
             </a>
           </div>
         </div>
-      </Fade>
     </div>
   );
 }
