@@ -1,19 +1,19 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://leebrettweb.github.io/Portfolio",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "node app",
     "test": "react-scripts test"
   },
   "dependencies": {
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "glamor": "^2.20.40",
     "react": "^16.8.0",
