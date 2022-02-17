@@ -17,15 +17,15 @@ const greeting = {
   subTitle1: "Full Stack Developer,",
   subTitle2: "Open Source Enthusiast 🔥.",
   subTitle3: "Always learning.",
-  resumeLink: "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:lee.brett.web@hotmail.com",
+  resumeLink: "../../assets/resume.pdf",
+  mail: "mailto:lee.brett926@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/leebrettweb",
+  github: "https://github.com/leebrett926",
   gmail: "lee.brett926@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  gitlab: "https://gitlab.com/leebrett926",
 };
 
 const skills = {
@@ -56,28 +56,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
-      descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology."
-      ],
-      website_link: "http://www.ssgec.ac.in/",
-    },
-    {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
+      title: "Academy of learning College",
+      subtitle: "Bachelor of Science",
       logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      alt_name: "AOLCC",
+      duration: "2012 - 2016",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.academyoflearning.com/",
     },
   ],
 };
@@ -88,49 +77,22 @@ const certifications = {
       title: "M0001: MongoDB Basics",
       subtitle: "MongoDB University",
       logo_path: "mongo.png",
-      certificate_link: "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
       alt_name: "MongoDB University",
       color_code: "#47A048",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link: "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link: "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link: "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link: "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
     },
     {
       title: "Postman Student Expert",
       subtitle: "Postman",
       logo_path: "postman.png",
-      certificate_link: "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
       alt_name: "Postman",
       color_code: "#fffbf3",
+    },
+    {
+      title: "Node.js",
+      subtitle: "Workshop at canada",
+      logo_path: "node.png",
+      alt_name: "Workshop",
+      color_code: "#47A048",
     },
   ],
 };
